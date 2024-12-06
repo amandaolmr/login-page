@@ -6,7 +6,7 @@ type InputTypes = "text" | "email" | "password"
 @Component({
   selector: 'app-primary-input',
   standalone: true,
-  imports: [ReactiveFormsModule, PrimaryInputComponent],
+  imports: [ReactiveFormsModule],
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,
